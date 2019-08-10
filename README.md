@@ -1,6 +1,8 @@
 # note
 个人工作以及项目遇到的知识点
 
+<a href="#1">第一段</a>
+
 1.对于多个ajax请求
 
   （1）当需要在所有请求之后，拿到所有数据，不保证请求返回顺序
@@ -60,6 +62,9 @@
     var imgThrottle = throttle(节流的函数名称, 500);
     ```
   （2）防抖
+  
+  <a name="1">第一段</a>
+  
   ```javascript
   function debounce(method, context, args) {
       clearTimeout(method.tId);
